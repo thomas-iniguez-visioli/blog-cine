@@ -32,16 +32,16 @@ meta:
 # The sidebar is reserved for a twitter feed and blocks of text/html.
 sidebar:
   twitter:
-    enabled: false
-    username: 'hexojs'
+    enabled: true
+    username: 'jaeger_program'
     height: 800
   tldr: 
     - block1: 
-      title: 'TL;DR'
-      content: 'Yet another hexo theme.'
+      title: 'presentation'
+      content: 'a faire '
     - block2: 
-      title: 'TL;DR 2'
-      content: 'No, not another one :/'
+      title: 'information'
+      content: 'pour me contactée veuillée utilisée mon mail'
 
 # If featured_image is missing from a post, this one will be used.
 featured_image: ./img/default.jpg
