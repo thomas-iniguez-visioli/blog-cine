@@ -1,0 +1,27 @@
+<div class="item-0<%=index%>">
+  <a href="<%- config.root %><%- item.path %>" class="post">
+    <div class="thumb" style="background-image: url(<%- config.root %><%- item.featured_image || theme.featured_image %>);"></div>
+    <article>
+      <h1>
+        <%=item.title %>
+      </h1>
+      <p>
+        <%- item.summary || item.excerpt %>
+      </p>
+      <span>
+        <%= item.date.format(config.date_format) %></span>
+    </article>
+  </a>
+  <% if (item!==undefined&& item.comments){ %>
+    <div id="hyvor-talk-view"></div>
+    <script type="text/javascript">
+        var HYVOR_TALK_WEBSITE = 12376; // DO NOT CHANGE THIS
+        var HYVOR_TALK_CONFIG = {
+            url: '<%= page.permalink %>' || false,
+            id: '<%= page.path %>' || false
+        }
+    </script>
+    <script type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+    <% } %>
+    
+</div>
