@@ -1,0 +1,48 @@
+name: Build Vue
+on: 
+ workflow_dispatch:
+ push:
+ schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 5,17 * * *'
+ issues:
+   types:
+     - closed
+permissions:
+  actions: write
+  attestations: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
+  issues: write
+  discussions: write
+  packages: write
+  pages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+
+jobs:
+  build_vue:
+    
+    
+    runs-on: ubuntu-latest
+    name: Build Vue
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v5.3.0
+    - name: Build Vue
+    
+          
+   
+    - id: Build-Vue
+      uses: alphaleadership/VuePagesAction@1.1.1
+      with:
+        username: 'thomas-iniguez-visioli'
+        reponame: 'blog-cine'
+        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+    
+   
