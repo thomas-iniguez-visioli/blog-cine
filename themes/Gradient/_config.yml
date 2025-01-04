@@ -38,10 +38,10 @@ sidebar:
   tldr: 
     - block1: 
       title: 'presentation'
-      content: 'a faire '
+      content: 'thomas iniguez bts sio 1ère année '
     - block2: 
       title: 'information'
-      content: 'pour me contactée veuillée utilisée mon mail'
+      content: 'pour me contactée veuillée utilisée mon twitter'
 
 # If featured_image is missing from a post, this one will be used.
 featured_image: ./img/default.jpg
