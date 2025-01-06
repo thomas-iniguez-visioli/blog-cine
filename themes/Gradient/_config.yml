@@ -8,6 +8,8 @@ menu:
 # The icons at the bottom of the page.
 # The class value comes from font awesome.
 #  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
+# You don't have to configure them.
+
 footer_icons:
   'Hexo.io':
     url: 'https://hexo.io/'

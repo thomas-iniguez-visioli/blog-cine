@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: thomas iniguez visioli
-language: en
+language: fr
 timezone: ''
 
 # URL
@@ -19,7 +19,19 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
-
+widget_tree:
+  cdn: false
+  hide: false
+ 
+  layout:
+    
+     - head_begin
+  showCount: true
+  toc:
+    enable: true
+    max_depth: 3
+    min_depth: 1
+    list_number: 0
 # Directory
 source_dir: source
 public_dir: dist
