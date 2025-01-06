@@ -1,0 +1,56 @@
+const { execSync } = require("child_process");
+const { existsSync, readFileSync,readdirSync } = require("fs");
+const { join } = require("path");
+
+/**
+ * Logs to the console
+ */
+const log = (msg) => console.log(`\n${msg}`); // eslint-disable-line no-console
+
+/**
+ * Exits the current process with an error code and message
+ */
+const exit = (msg) => {
+	console.error(msg);
+	process.exit(1);
+};
+
+/**
+ * Executes the provided shell command and redirects stdout/stderr to the console
+ */
+const run = (cmd, cwd) => execSync(cmd, { encoding: "utf8", stdio: "inherit", cwd });
+
+/**
+ * Determines the current operating system (one of ["mac", "windows", "linux"])
+ */
+
+
+/**
+ * Returns the value for an environment variable (or `null` if it's not defined)
+
+
+/**
+ * Sets the specified env variable if the value isn't empty
+ */
+
+
+/**
+ * Returns the value for an input variable (or `null` if it's not defined). If the variable is
+ * required and doesn't have a value, abort the action
+ */
+
+
+/**
+ * https://fr.web.img5.acsta.net/c_310_420/img/17/5f/175fbcee8f625ac212b06378b2d34435.jpg
+ * Installs NPM dependencies and builds/releases the Electron app
+ */
+const runAction = (name) => {
+	
+	run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name} -o dist\\${name}.jpg`)
+
+
+};
+readdirSync("source\\_posts").map((filename)=>{
+    runAction(filename.split(".")[0]);
+})
+

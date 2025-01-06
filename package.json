@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "rm dist/404.html && hexo generate",
-    "clean": "hexo clean",
+    "build": "rm dist/404.html &&npm run clean&& hexo generate",
+    "import":"node prebuild.js",
+    "clean": "hexo clean && npm run import",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
