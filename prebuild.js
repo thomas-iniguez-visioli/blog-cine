@@ -52,7 +52,7 @@ const runAction = (name) => {
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
 			run(`curl ${result} -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
-		}).catch((err)=>{l})
+		}).catch((err)=>{log(er)})
 		
 	}else{
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
