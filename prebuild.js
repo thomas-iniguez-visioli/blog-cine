@@ -65,7 +65,7 @@ const runAction = (name) => {
 };
 const geturl=async (name)=>{
 	const test = await GOOGLE_IMG_SCRAP({
-        search: `affiche film ${name}`,
+        search: `affiche  ${name}`,
     });
 	console.log(test)
 	if(test.result.length==0){
