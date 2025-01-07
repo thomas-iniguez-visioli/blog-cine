@@ -9,14 +9,14 @@ star-wars-la-menace-fantome.md
 win32
 star-wars-la-menace-fantome
 {
-  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20film%20hello-world',
+  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20%20star-wars-la-menace-fantome',
   result: []
 }
 {
-  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20film%20star-wars-la-menace-fantome',
+  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20%20film',
   result: []
 }
 {
-  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20film%20film',
+  url: 'https://images.google.com/search?tbm=isch&tbs=&q=affiche%20%20hello-world',
   result: []
 }
