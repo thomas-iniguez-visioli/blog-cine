@@ -35,7 +35,7 @@ async function pullCommitAndPushIfNeeded() {
         console.log(`Pour ${repoConfig.path}: Pull terminé avec succès.`);
 
         // Effectuer git push pour envoyer les changements locaux
-        await git.push(repoConfig.remote, 'main');
+        await git.push(repoConfig.remote,repoConfig.branch||"main",);
         console.log(`Pour ${repoConfig.path}: Push terminé avec succès.`);
       } else {
         console.log(`Pour ${repoConfig.path}: Aucun commit à récupérer.`);
