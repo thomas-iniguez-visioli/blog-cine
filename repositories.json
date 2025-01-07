@@ -1,3 +1,5 @@
 [
-    {"remote":"origin","path":"."},{"remote":"origin","path":"..\\cdn"},{"remote":"origin","path":"..\\blog"}
+  { "remote": "origin", "path": "." },
+  { "remote": "origin", "path": "..\\cdn" },
+  { "remote": "origin", "path": "..\\blog","branch":"pages" }
 ]
