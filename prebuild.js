@@ -55,7 +55,7 @@ const runAction = (name) => {
 		})
 		
 	}else{
-		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name} -o dist\\${name}.jpg`,__dirname)
+		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name} -o dist/${name}.jpg`,__dirname)
 	}
 
 	
