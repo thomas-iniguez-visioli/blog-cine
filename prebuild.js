@@ -59,7 +59,7 @@ const runAction = (name) => {
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
 	}
 	if(existsSync("./add.txt")){
-		for(choix in readFileSync("./add.txt").toString().split("\n")){
+		for(c in readFileSync("./add.txt").toString().split("\n")){
 			console.log(choix)
 			run("npx hexo new post "+choix,__dirname)
 			writeFileSync("./add.txt",readFileSync("./add.txt").toString().replace(choix,""))
