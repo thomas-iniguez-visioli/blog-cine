@@ -58,6 +58,6 @@ async function pullCommitAndPushIfNeeded() {
     console.error('Erreur :', error);
   }
 }
-
+pullCommitAndPushIfNeeded()
 // Planification de l'exécution toutes les 30 secondes
 setInterval(pullCommitAndPushIfNeeded, 30000);
