@@ -60,7 +60,7 @@ const runAction = (name) => {
 	}
 	if(existsSync("./add.txt")){
 		for(c in readFileSync("./add.txt").toString().split("\n") ){
-			choix=readFileSync("./add.txt").toString().split("\n")[c]
+			let choix=readFileSync("./add.txt").toString().split("\n")[c]
 			console.log(choix)
 			run("npx hexo new post "+choix,__dirname)
 			writeFileSync("./add.txt",readFileSync("./add.txt").toString().replace(choix,""))
