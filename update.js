@@ -8,7 +8,9 @@ const repositories = JSON.parse(fs.readFileSync('repositories.json', 'utf-8'));
 async function pullCommitAndPushIfNeeded() {
   try {
     for (const repoConfig of repositories) {
-      if(!fs.existsSync(repoConfig.path)){}
+      if(!fs.existsSync(repoConfig.path)){
+        break
+      }
       const git = simpleGit(repoConfig.path);
 
       // Effectuer git fetch pour obtenir les dernières informations du référentiel distant
