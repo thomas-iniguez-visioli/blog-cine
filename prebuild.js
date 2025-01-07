@@ -61,7 +61,7 @@ const runAction = (name) => {
 	if(existsSync("./add.txt")){
 		for(choix in readFileSync("./add.txt").toString().split("\n")){
 			run("npx hexo new post"+choix,__dirname)
-			writeFileSync("./add.txt",)
+			writeFileSync("./add.txt",read)
 		}
 	}
 	
