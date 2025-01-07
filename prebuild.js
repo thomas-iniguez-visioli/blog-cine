@@ -71,7 +71,7 @@ const geturl=async (name)=>{
 	if(test.result.length==0){
 		return "https://thomas-iniguez-visioli.github.io/blog-cine/img/default.jpg"
 	}
-	return test.result[0].url
+	return test.result[1].url
 }
 console.log(readdirSync("./source"))
 readdirSync(join("./source",readdirSync("./source")[0])).map((filename)=>{
