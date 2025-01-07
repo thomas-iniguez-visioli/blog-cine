@@ -239,3 +239,6 @@ img {
 .toc > * > * {
     list-style-type: ' ';
 }
+.star{
+    max-width: 100px;
+}
