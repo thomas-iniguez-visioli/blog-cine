@@ -67,7 +67,7 @@ const geturl=async (name)=>{
 	const test = await GOOGLE_IMG_SCRAP({
         search: `affiche  ${name}`,
     }).;
-	console.log(test)
+	console.log(test.)
 	if(test.result.length==0){
 		return "https://thomas-iniguez-visioli.github.io/blog-cine/img/default.jpg"
 	}
