@@ -13,6 +13,8 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "google-images": "^2.1.0",
+    "google-img-scrap": "github:alphaleadership/google-img-scrap",
     "hexo": "^7.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",

@@ -1,10 +1,12 @@
 const { execSync } = require("child_process");
 const { existsSync, readFileSync,readdirSync } = require("fs");
 const { join } = require("path");
-
+const os =require("node:os")
+const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('google-img-scrap');
 /**
  * Logs to the console
  */
+const forbiden=[]
 const log = (msg) => console.log(`\n${msg}`); // eslint-disable-line no-console
 
 /**
@@ -45,12 +47,36 @@ const run = (cmd, cwd) => execSync(cmd, { encoding: "utf8", stdio: "inherit", cw
  * Installs NPM dependencies and builds/releases the Electron app
  */
 const runAction = (name) => {
+	console.log(os.platform())
+	console.log(name)
+	if(os.platform()==="win32"){
+		geturl(name).then((result)=>{
+			run(`curl ${result} -o ..\\cdn\\${name}.jpg && git add * && git commit -m" ajout de l'image pour le film ${name}" && git pull && git push `,__dirname)
+		})
+		
+	}else{
+		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name} -o dist\\${name}.jpg`,__dirname)
+	}
+
 	
-	run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name} -o dist\\${name}.jpg`)
 
 
 };
+const geturl=async (name)=>{
+	const test = await GOOGLE_IMG_SCRAP({
+        search: `affiche film ${name}`,
+    });
+	console.log(test)
+	if(test.result.length==0){
+		return "https://thomas-iniguez-visioli.github.io/blog-cine/img/default.jpg"
+	}
+	return test.result[0].url
+}
 readdirSync("source\\_posts").map((filename)=>{
-    runAction(filename.split(".")[0]);
+	console.log(filename)
+	if(!forbiden.includes(filename)){
+		runAction(filename.split(".")[0]);
+	}
+    
 })
 
