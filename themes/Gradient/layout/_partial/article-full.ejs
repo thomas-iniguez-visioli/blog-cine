@@ -8,6 +8,9 @@
                 <i class="far fa-clock"></i>
                 <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
             </p>
+            <% for (var i in theme.footer_icons){ %>
+                <a href="<%= theme.footer_icons[socialItem].url%>" title="<%=socialItem%>" target="_blank" rel="noopener" class="<%=theme.footer_icons[socialItem].class%>"></a>
+                <% } %>
             <!-- Content -->
             <%- item.content %>
             <br />
