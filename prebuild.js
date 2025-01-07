@@ -3,6 +3,7 @@ const { existsSync, readFileSync,readdirSync } = require("fs");
 const { join } = require("path");
 const os =require("node:os")
 const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('google-img-scrap');
+const { error } = require("console");
 /**
  * Logs to the console
  */
@@ -52,7 +53,7 @@ const runAction = (name) => {
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
 			run(`curl ${result} -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
-		}).catch((err)=>{log(er)})
+		}).catch((err)=>{log(error)})
 		
 	}else{
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
