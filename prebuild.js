@@ -1,5 +1,5 @@
 const { execSync } = require("child_process");
-const { existsSync, readFileSync,readdirSync } = require("fs");
+const { existsSync, readFileSync,readdirSync, writeFileSync } = require("fs");
 const { join } = require("path");
 const os =require("node:os")
 const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('google-img-scrap');
@@ -61,7 +61,7 @@ const runAction = (name) => {
 	if(existsSync("./add.txt")){
 		for(choix in readFileSync("./add.txt").toString().split("\n")){
 			run("npx hexo new post"+choix,__dirname)
-			wre
+			writeFileSync()
 		}
 	}
 	
