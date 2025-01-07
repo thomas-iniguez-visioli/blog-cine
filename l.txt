@@ -11,576 +11,72 @@ star-wars-la-menace-fantome.md
 win32
 star-wars-la-menace-fantome
 https://images.google.com/search?tbm=isch&tbs=&q=affiche%20%20star-wars-la-menace-fantome
-[
-  '<img class=',
-  'kgJEQe',
-  ' src=',
-  '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif',
-  ' alt=',
-  'Google',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IhWRxaDNa2MtRkyLS5bz-es6yFffpyTgPTbn5x9JQKp5XcZk0XJKnld8jNU&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQ28B6LCztVp5WNpcNBB5oHCV52krmkFLMs4s4v5rMbMA9V5UF4YyC4HdcA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcmfyFYCTTMDg_I8z68dbGdewlkQPARdceilLd67VubBDHcJNREvCkMAJxw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoK0SmDBYqmCv7sObMXlbhc3XAZbaSsET-rgdYl8btj6E2oNPanwZm6qgqXg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIka0uGD7bMjQeREh1_3ZFH8knhm4By9CWk8NBShCl3x_LN0_jlvM3p83zIw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxI3cYP0EjnvqxA5mUmze34Sh4seIHAxFPIMUiFRFHPzt9FDDYsLK-JiTgv6E&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlzqEaXrYhKWjFXohe_wWlkmfjg5rktxV_2o2lI-LgrS-MBjGqZjBm6Nqvbg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1L70QdzBzWElKN63P5TX2SWCrVV_5B8In43aOIJshVt2jyL_Os0cmxrD2bw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRG35BBKAobr2n9qWvrULmtHeFpKwZp0JpywDmc4Dz-IIUYjIXa7MmZ9eTA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTaLtjWUhGvLAlOBy8dVnQ-kXk4BtV3cGTNaigMf4-dpDjF2OcB0cIfr8Iynk&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9cLpO2XpAHJ26-mY76zuhv11bqv41XdkbrvwQWKUQ2vxjhBS17wlX30NYrU&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVrJy5vBffN66hagpI8TVIuMt02b5TiM4BbkS84JjPLoZiOD0bYP29XsLruQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxeP6gmsWH7SJLWJXsYBYhGideP10PSK0RRIN1kwTkD3BR8gNJu3PJc0yLQB8&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVOnbb99NKZeeybn-paty73IJhm9_N1uPnddkHG4QGZtFQcVF_O0YW1xbg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGPYUPUdZ7k7lAMYayCgzT9RwhpUcMbwV_c5sd9ZHcCK--xLOCVhGTRkmLzg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOyaknVLG2k-Aaoa0oHoBmIufzh8VLejANlJhSaTwBbHdWIbAGcSad8oFR07o&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2KQSAeDLeoIxErLqvLFOprx4j3HmF6RWzFlb7kSmfcHjNU_FP-3xZLY2cJM&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhaIir4G_HzMJxu1cSfkukQ38QQDqnfKSQ7kupzZtikiz5gd96Y0qdSpb7g&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDE8c1NKwSJAmdjA0UGKpU4NlQL_BbrJrzjvfr43ZLciYG3ryaWDt4Yakf-r4&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCSF01GtNxSReqAl40o4bqU3eQRte8hDAIjSswBk7_tLNHYEuNmAiRpij7g&amp;s',
-  '/>'
-]
+Google
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IhWRxaDNa2MtRkyLS5bz-es6yFffpyTgPTbn5x9JQKp5XcZk0XJKnld8jNU&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQ28B6LCztVp5WNpcNBB5oHCV52krmkFLMs4s4v5rMbMA9V5UF4YyC4HdcA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcmfyFYCTTMDg_I8z68dbGdewlkQPARdceilLd67VubBDHcJNREvCkMAJxw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoK0SmDBYqmCv7sObMXlbhc3XAZbaSsET-rgdYl8btj6E2oNPanwZm6qgqXg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIka0uGD7bMjQeREh1_3ZFH8knhm4By9CWk8NBShCl3x_LN0_jlvM3p83zIw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxI3cYP0EjnvqxA5mUmze34Sh4seIHAxFPIMUiFRFHPzt9FDDYsLK-JiTgv6E&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1L70QdzBzWElKN63P5TX2SWCrVV_5B8In43aOIJshVt2jyL_Os0cmxrD2bw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlzqEaXrYhKWjFXohe_wWlkmfjg5rktxV_2o2lI-LgrS-MBjGqZjBm6Nqvbg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRG35BBKAobr2n9qWvrULmtHeFpKwZp0JpywDmc4Dz-IIUYjIXa7MmZ9eTA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTaLtjWUhGvLAlOBy8dVnQ-kXk4BtV3cGTNaigMf4-dpDjF2OcB0cIfr8Iynk&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9cLpO2XpAHJ26-mY76zuhv11bqv41XdkbrvwQWKUQ2vxjhBS17wlX30NYrU&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVrJy5vBffN66hagpI8TVIuMt02b5TiM4BbkS84JjPLoZiOD0bYP29XsLruQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxeP6gmsWH7SJLWJXsYBYhGideP10PSK0RRIN1kwTkD3BR8gNJu3PJc0yLQB8&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVOnbb99NKZeeybn-paty73IJhm9_N1uPnddkHG4QGZtFQcVF_O0YW1xbg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOyaknVLG2k-Aaoa0oHoBmIufzh8VLejANlJhSaTwBbHdWIbAGcSad8oFR07o&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhaIir4G_HzMJxu1cSfkukQ38QQDqnfKSQ7kupzZtikiz5gd96Y0qdSpb7g&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2KQSAeDLeoIxErLqvLFOprx4j3HmF6RWzFlb7kSmfcHjNU_FP-3xZLY2cJM&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5z0p67vDQdjgd7ZMbTOxlF11DbZYAIfblj9KDkAHUfhAAl5mp2_Kyuf9P9PU&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCSF01GtNxSReqAl40o4bqU3eQRte8hDAIjSswBk7_tLNHYEuNmAiRpij7g&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDE8c1NKwSJAmdjA0UGKpU4NlQL_BbrJrzjvfr43ZLciYG3ryaWDt4Yakf-r4&amp;s
 []
 []
-[
-  '<img class=',
-  'kgJEQe',
-  ' src=',
-  '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif',
-  ' alt=',
-  'Google',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcon2WEyQQSLS3i7V4zNrszU_rZkM1KEwqB9WC17RO0YX0lfNRp0CtLVFlTec&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZssL_90XJIIqvzJvXO7u2sRWCJEWLua-Js3hdKPmv9BT8DHDZL_1svQrCVaI&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHj1KvUcAb1YBDAflSc65skzSoyNDF5lBNJvDSoG7XtTdGRLJ8VjiOOwZdeQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMluCiUGy5WETGnWnqFyNp1j2EhiZhCPqjMmyUexlqafIYi3DNB9iohdyagA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYQH4owtjflLhlCe82BynddFLVGv4ztJKxqgnPiU0zRjt4tT4ryiHYRXc9w&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHB7WRE7GQ55XKFS5b_-KFF8tbukzGvjiR-A9t14_sIQ4N9lzsb2CHYjmHIS8&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZbGjCRgx6ExA5uSaz1YuRkdGDpdPGfbtySHA2XGCjG3ZgF7vOfi1JmQh1f4&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOR_6QwPp9bfcOi-6Pk6QNJEEiVU3DQ3ewEAg4HHEYg_d_Jn4WIcvlgVg4g&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThiAd0n3yKkwQnGPJCTQBwaNiIuM7G-yns6Q4gH-D16501IpQbHcI3t2hRow&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHpQ3HsULzlFGkPLAH06FLW_cFCNfZS3AuEwmLw214j-zmos8yipq1Kmgtw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkCp2XcZGpVh-739UuzocJxniQPP8yp5nwq8VSnQAFddSQbXJ4FTWH-BYsMg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ51DgQdjUBZaGOh5Z94oMTL4mbL2ZtyzLAtx4g8sFk2OjxBCqNSRS0JiFlfA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN6MauEkH8UkuUupXVE4MlDf_CCpsIbM8KPSPzc8LF6yQMyIgY75LhAMrlvb4&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTxYohFcfDe88n72r0BhYmn_T_9Tc3X_U6UvRd16rHEdAD3eK2C4DD-P8xVWg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGoqHY72N7Swo2myDRq9vQPNpy3XUqjY50gE7EqxHXKQGrj7HonSc_npc8q4E&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcSZmjaLcIIwbhEPZnI5rrTTzR8B2HANvMx77Nm4BIeMcDQHFg7GlxgwlW9A&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCxYHUQjPpqcGcWQvuYTzyI0h0mMq7XrEGkDI1oOR8-pe5BITAF9Dtpu0EQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDjLbqiadCbASCkv5MeE6cwZGzMszxoQOvEJJbOk4KjZIfhgSljwhAZGzDQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMLzrlpdo5ZwW8AJ-WgVlv6E3lLRAhzDT9MKFe0qH7Oc0xKuarhYBeX3aBFsg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3jqJu0BaiKadIBRFvpuEfhgEHqg1HklPlsArKa32Ss0JGoi9XNwsBpNJoxc&amp;s',
-  '/>'
-]
+Google
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcon2WEyQQSLS3i7V4zNrszU_rZkM1KEwqB9WC17RO0YX0lfNRp0CtLVFlTec&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZssL_90XJIIqvzJvXO7u2sRWCJEWLua-Js3hdKPmv9BT8DHDZL_1svQrCVaI&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHj1KvUcAb1YBDAflSc65skzSoyNDF5lBNJvDSoG7XtTdGRLJ8VjiOOwZdeQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMluCiUGy5WETGnWnqFyNp1j2EhiZhCPqjMmyUexlqafIYi3DNB9iohdyagA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYQH4owtjflLhlCe82BynddFLVGv4ztJKxqgnPiU0zRjt4tT4ryiHYRXc9w&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHB7WRE7GQ55XKFS5b_-KFF8tbukzGvjiR-A9t14_sIQ4N9lzsb2CHYjmHIS8&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZbGjCRgx6ExA5uSaz1YuRkdGDpdPGfbtySHA2XGCjG3ZgF7vOfi1JmQh1f4&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOR_6QwPp9bfcOi-6Pk6QNJEEiVU3DQ3ewEAg4HHEYg_d_Jn4WIcvlgVg4g&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThiAd0n3yKkwQnGPJCTQBwaNiIuM7G-yns6Q4gH-D16501IpQbHcI3t2hRow&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHpQ3HsULzlFGkPLAH06FLW_cFCNfZS3AuEwmLw214j-zmos8yipq1Kmgtw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkCp2XcZGpVh-739UuzocJxniQPP8yp5nwq8VSnQAFddSQbXJ4FTWH-BYsMg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ51DgQdjUBZaGOh5Z94oMTL4mbL2ZtyzLAtx4g8sFk2OjxBCqNSRS0JiFlfA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN6MauEkH8UkuUupXVE4MlDf_CCpsIbM8KPSPzc8LF6yQMyIgY75LhAMrlvb4&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTxYohFcfDe88n72r0BhYmn_T_9Tc3X_U6UvRd16rHEdAD3eK2C4DD-P8xVWg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGoqHY72N7Swo2myDRq9vQPNpy3XUqjY50gE7EqxHXKQGrj7HonSc_npc8q4E&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcSZmjaLcIIwbhEPZnI5rrTTzR8B2HANvMx77Nm4BIeMcDQHFg7GlxgwlW9A&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCxYHUQjPpqcGcWQvuYTzyI0h0mMq7XrEGkDI1oOR8-pe5BITAF9Dtpu0EQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDjLbqiadCbASCkv5MeE6cwZGzMszxoQOvEJJbOk4KjZIfhgSljwhAZGzDQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMLzrlpdo5ZwW8AJ-WgVlv6E3lLRAhzDT9MKFe0qH7Oc0xKuarhYBeX3aBFsg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3jqJu0BaiKadIBRFvpuEfhgEHqg1HklPlsArKa32Ss0JGoi9XNwsBpNJoxc&amp;s
 []
 []
-[
-  '<img class=',
-  'kgJEQe',
-  ' src=',
-  '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif',
-  ' alt=',
-  'Google',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXp6Vhv-WQD22QTnJj3K3PnXPim3vrFv3CeWkveNgTUNCxDFUZa-aSBpT4Q&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KPtp7AzDhvKN5Ch9Vt6_mhh-IzXmEm1ztEawV2wFYu2GDR-e_-xEYvxeLg&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBkf6Q5oRhtk1kRnMX2Wgi7ZedWim5220ScVnP22BxAf23caOHIGXPVKobR0&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQawLqpEfYr_ZvkZT1BKSwsMcrfOnmfzdSCcPBIK18AuwLNXHyzHAyTZoNVKw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsAVyDZNbLkWuqJN5DnyKQ9U8434s36zIJ5QS1wvt1xlckXfAB843ZcUlhaA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnU_GsuEFR9CycVCMGhSgyR6C0eOabSNv3bBTsfn6-aBobDv4LtQn2KZ-5C_0&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8Cpzpz2Hgs4gG7qTDJt2cQ8u6pZL_Zn3-G3Abhe7hAxssXjQvdHW5hT3Cw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjv18hoWEEOr2VlKCBWCQTjvgTj2K38R1iAcP_Q8EMBJqcQB0A5fy2Nunjvjk&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBjXtQUBXaC4VK9xlouQrZxttGQZzzrpGqfwH3UBMwx5Wb9DFfZ3r24OWw2U&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZoTrkYzZIvwm5O35_MBNIK4liEuMw4fx3vgANiL-QVVKXUtxBkPYCYKKVA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuXGn2F86CBOUcGP9Eou6BCMv3ilTIkCQYunKfFrGqOKwxIq2uAkNKjT-Crw&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwH1INOxhizAlBBrmQJ7l4N9g6bwW4-rJGHc_O6AKis4n_XOro8mKqbHCOGQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8Yw__HarQ6jqDs9aq9XG9sI193RJpviK2LCuRQpKY1JLsI1vmY3CL4YPCUM&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ6X7A7Azd0zBlVmrEzBP-WIcrDFavci3HpnBSf7SwpyXgl2iJFrns-Sg6A&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlSTDKgKFonI26DZjmLzbVNgJwj4PFfIPyLFayRpayLDk7YFXq5EVX4ZJ2gA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKln3G70nqShrwRCs-xVHXXFWx6R-SKazvdzoNT4HFokZ8yInVeY1Wl3ylA&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ydSnSBzPW0EMRAqs_lxDLzEQaLzczPU7Azx0bMGFJpB977NUOxzLpLWQRQ&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1iU6zpgC4aZ_pLS3THVNi3gwUY4J1Y0QhCCYcZj-qYSbgHm8RLRbVFrAdm8&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-KnImw0s_8wNs6nP45N0HxUc940--cOIv54wpGbieZz2Wafg2QgkxLYXajdY&amp;s',
-  '/>'
-]
-[
-  '<img class=',
-  'DS1iW',
-  ' alt=',
-  '',
-  ' src=',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkw27U3lR6OYdCHW1QshejnQNyLDESx8WwfoDgpfKibt0KdkdqO6IY_f-UvM&amp;s',
-  '/>'
-]
+Google
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBXp6Vhv-WQD22QTnJj3K3PnXPim3vrFv3CeWkveNgTUNCxDFUZa-aSBpT4Q&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KPtp7AzDhvKN5Ch9Vt6_mhh-IzXmEm1ztEawV2wFYu2GDR-e_-xEYvxeLg&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBkf6Q5oRhtk1kRnMX2Wgi7ZedWim5220ScVnP22BxAf23caOHIGXPVKobR0&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQawLqpEfYr_ZvkZT1BKSwsMcrfOnmfzdSCcPBIK18AuwLNXHyzHAyTZoNVKw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsAVyDZNbLkWuqJN5DnyKQ9U8434s36zIJ5QS1wvt1xlckXfAB843ZcUlhaA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnU_GsuEFR9CycVCMGhSgyR6C0eOabSNv3bBTsfn6-aBobDv4LtQn2KZ-5C_0&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8Cpzpz2Hgs4gG7qTDJt2cQ8u6pZL_Zn3-G3Abhe7hAxssXjQvdHW5hT3Cw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjv18hoWEEOr2VlKCBWCQTjvgTj2K38R1iAcP_Q8EMBJqcQB0A5fy2Nunjvjk&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBjXtQUBXaC4VK9xlouQrZxttGQZzzrpGqfwH3UBMwx5Wb9DFfZ3r24OWw2U&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZoTrkYzZIvwm5O35_MBNIK4liEuMw4fx3vgANiL-QVVKXUtxBkPYCYKKVA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuXGn2F86CBOUcGP9Eou6BCMv3ilTIkCQYunKfFrGqOKwxIq2uAkNKjT-Crw&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGlEHFqAwEIiMpl7XFMxPcrVsBp4QWJGNeSL8v9kGxLQkdDzVRGL1qyExrio&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwH1INOxhizAlBBrmQJ7l4N9g6bwW4-rJGHc_O6AKis4n_XOro8mKqbHCOGQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQ6X7A7Azd0zBlVmrEzBP-WIcrDFavci3HpnBSf7SwpyXgl2iJFrns-Sg6A&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8Yw__HarQ6jqDs9aq9XG9sI193RJpviK2LCuRQpKY1JLsI1vmY3CL4YPCUM&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVukiE7M6I9T99OA5h2kd25jbIInQ588nQa4WhogMXAxuL31eLA3AhWCH8cc&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlSTDKgKFonI26DZjmLzbVNgJwj4PFfIPyLFayRpayLDk7YFXq5EVX4ZJ2gA&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ydSnSBzPW0EMRAqs_lxDLzEQaLzczPU7Azx0bMGFJpB977NUOxzLpLWQRQ&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-KnImw0s_8wNs6nP45N0HxUc940--cOIv54wpGbieZz2Wafg2QgkxLYXajdY&amp;s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkw27U3lR6OYdCHW1QshejnQNyLDESx8WwfoDgpfKibt0KdkdqO6IY_f-UvM&amp;s
 []
 []
