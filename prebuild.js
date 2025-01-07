@@ -58,7 +58,11 @@ const runAction = (name) => {
 	}else{
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
 	}
-	if
+	if(existsSync("./add.txt")){
+		for(choix in readFileSync("./add.txt").toString().split("\n")){
+			run("npx hexo new post"+choix,__dirname)
+		}
+	}
 	
 
 
