@@ -7,15 +7,16 @@
             <p class="meta">
                 <i class="far fa-clock"></i>
                 <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
-            </p>
-            <% for (var i ;i<= item.star;i++){ %>
-               <img src="https://thomas-iniguez-visioli.github.io/cdn/star.png">etoile</img>
-
-                <% } %>
-                <% for (var i ;i<= 5-item.star;i++){ %>
-                    <img src="https://thomas-iniguez-visioli.github.io/cdn/star.png">pas étoile</img>
+                <% for (var i ;i<= item.star;i++){ %>
+                    <img src="https://thomas-iniguez-visioli.github.io/cdn/star.png">etoile</img>
      
                      <% } %>
+                     <% for (var i ;i<= 5-item.star;i++){ %>
+                         <img src="https://thomas-iniguez-visioli.github.io/cdn/star.png">pas étoile</img>
+          
+                          <% } %>
+            </p>
+            
             <!-- Content -->
             <%- item.content %>
             <br />
