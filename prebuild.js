@@ -51,7 +51,7 @@ const runAction = (name) => {
 	console.log(name)
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
-			run(`curl ${result} -o ..\\cdn\\${name}.jpg && git add * && git commit -m" ajout de l'image pour le film ${name}" && git pull && git push `,__dirname)
+			run(`curl ${result} -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
 		})
 		
 	}else{
