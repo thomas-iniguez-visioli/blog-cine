@@ -31,7 +31,7 @@ async function pullCommitAndPushIfNeeded() {
 
       if (localCommit !== remoteCommit) {
         // Effectuer git pull
-        await git.pull(repoConfig.remote, 'master', { '--rebase': 'true' });
+        await git.pull(repoConfig.remote, 'main', { '--rebase': 'true' });
         console.log(`Pour ${repoConfig.path}: Pull terminé avec succès.`);
 
         // Effectuer git push pour envoyer les changements locaux
