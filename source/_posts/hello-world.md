@@ -2,6 +2,6 @@
 title: présentation
 comments: true
 featured_image: photo.jpg
-star
+star: 0
 --- 
  ce blog a été fait pour un concours d'une semaine 
