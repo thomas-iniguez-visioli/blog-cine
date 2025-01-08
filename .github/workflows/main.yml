@@ -62,7 +62,7 @@ jobs:
               git branch -m pages
               echo branch
               
-              git add . && git rebase --continue
+              git add . 
               
               git commit -m temp
               
@@ -70,6 +70,8 @@ jobs:
               echo branch 2
               git remote -v
               echo test
+              git pull --rebase
+              git add . && git rebase --continue
               git fetch
               echo fetch
               git pull --rebase
