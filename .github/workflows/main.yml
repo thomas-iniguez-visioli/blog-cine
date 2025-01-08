@@ -68,10 +68,13 @@ jobs:
               git checkout -t origin/pages
               
               echo "node_modules" > .gitignore
-              git add .gitignore
+              git add .gitignore * */*
+              git commit -m "7"
+              cd ..
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
               if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
-              git add -A
+             
+              cd dist
+               git add -A
               git commit -m '${{ env.gitmsg }}'
               if ! git diff --quiet remotes/origin/pages; then   git push ; fi
-              cd ..
