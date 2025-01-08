@@ -76,7 +76,7 @@ jobs:
               echo temp >log.txt
               git add . * */*
               git commit -m "temp"
-              
+              git reset --soft HEAD~1
               git merge --allow-unrelated-histories -v -m "merge" origin/pages --squash
               git pull --ff-only
               git add .
