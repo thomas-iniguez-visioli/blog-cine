@@ -70,8 +70,7 @@ jobs:
               echo branch 2
               git remote -v
               echo test
-              git pull --rebase
-              git add . && git rebase --abort
+              
               git fetch
               echo fetch
               git pull --rebase
