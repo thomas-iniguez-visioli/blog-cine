@@ -62,7 +62,7 @@ jobs:
               git branch -m pages
               echo branch
               
-              git add *
+              git add . && git rebase --continue
               
               git commit -m temp
               
