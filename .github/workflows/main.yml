@@ -57,8 +57,11 @@ jobs:
               git init
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
               git fetch
+              echo f
               git branch -m main
+              echo b
               git branch  --set-upstream-to=origin/main
+              echo a
               echo "node_modules" > .gitignore
               git commit -am "init"
               
