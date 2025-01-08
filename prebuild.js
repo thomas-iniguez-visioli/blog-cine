@@ -79,7 +79,7 @@ const runAction = (name) => {
 		geturl(name).then((result)=>{
 			console.log("lien :"+result)
 			console.log(__dirname)
-			console.log(readdirSync("./"))
+			console.log(readdirSync("./cdn"))
 			/*&& curl "${result.replace('&amp;s','')}" -o cdn/${name}.jpg >${name}.log && cd cdn &&git add * * &&git commit -m"${name}" --amend &&git pull &&git push*/
 		//	writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
 			run(`dir ./cdn  `,__dirname+"")
