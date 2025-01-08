@@ -73,6 +73,7 @@ jobs:
               
               git fetch
               echo fetch
+              git merge --no-ff origin/pages
               git pull --ff-only
               git add .
               echo pull
