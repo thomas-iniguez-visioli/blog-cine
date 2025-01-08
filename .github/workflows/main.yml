@@ -59,6 +59,7 @@ jobs:
               git fetch
               git branch -m main
               git branch  --set-upstream-to=origin/main
+              echo
               git checkout main
               git pull 
               cd ..
