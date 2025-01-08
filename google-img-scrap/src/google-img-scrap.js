@@ -68,7 +68,7 @@ async function parse(url) {
             result.push({ url: n.value });
           }
         })
-      );
+     
     });
     const valide = true;
 
