@@ -57,6 +57,7 @@ async function parse(url) {
     body.parentNode.childNodes.map((i) => {
       console.log(
         i.attributes.map((n) => {
+          console
           if (n.name == "src") {
             console.log(n);
             
