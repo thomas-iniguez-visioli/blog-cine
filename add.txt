@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 Les Fausses blondes infiltrées
 
 
@@ -9,4 +8,3 @@ Les Fausses blondes infiltrées
 
 
 
->>>>>>> f4cf3ff (Auto-commit : changements locaux)
