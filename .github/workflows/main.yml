@@ -75,8 +75,9 @@ jobs:
               git add .gitignore
               git commit -m "init"
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
-              git fetch
+              
               git branch -m pages
+              git pull
               git branch pages --set-upstream-to=origin/pages
               echo "node_modules" > .gitignore
               git add * */*
