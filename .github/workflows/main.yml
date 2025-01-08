@@ -59,7 +59,8 @@ jobs:
               git fetch
               git branch -m main
               git branch  --set-upstream-to=origin/main
-              echo
+              echo "node_modules" > .gitignore
+              git commit -am "init"
               git checkout main
               git pull 
               cd ..
@@ -69,6 +70,8 @@ jobs:
               git fetch
               git branch -m pages
               git branch --set-upstream-to=origin/pages
+              echo "node_modules" > .gitignore
+              git commit -am "init"
               git checkout pages
               git pull 
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
