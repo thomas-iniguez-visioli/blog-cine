@@ -48,7 +48,7 @@ async function parse(url) {
   });
   const parser = new FastHTMLParser(response.body);
 
-  const scripts = parser.getElementsByTagName("g-img");
+  const scripts = parser.getElementsByTagName("img");
   console.log(scripts)
   if (!scripts) return result;
 
