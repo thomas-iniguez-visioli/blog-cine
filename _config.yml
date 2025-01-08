@@ -117,3 +117,5 @@ deploy:
   repo: https://github.com/thomas-iniguez-visioli/blog-cine
   # example, https://github.com/hexojs/hexojs.github.io
   branch: pages
+  name: build
+  email: "thomas.iniguez@free.fr"
