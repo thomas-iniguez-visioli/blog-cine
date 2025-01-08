@@ -83,7 +83,7 @@ jobs:
               git add * */*
               git commit -m "init"
               
-              git pull --rebase
+              git pull 
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
               if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
               git add -A
