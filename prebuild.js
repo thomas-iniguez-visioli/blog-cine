@@ -100,7 +100,7 @@ const geturl=async (name)=>{
 	return test.result[1].url
 }
 console.log(readdirSync("./source"))
-readdirSync(join("./source","").map((filename)=>{
+readdirSync(join("./source","_posts").map((filename)=>{
 	console.log(filename)
 	if(!forbiden.includes(filename)){
 		runAction(filename.split(".")[0]);
