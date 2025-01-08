@@ -60,7 +60,7 @@ async function parse(url) {
           if (n.name == "src") {
             console.log(n);
             
-            result.push({ url: ""+n.value.toString() });
+            result.push({ url: n.value.toString() });
           }
           if (n.name == "href") {
             console.log(n);
