@@ -55,6 +55,8 @@ jobs:
               mkdir -p dist cdn
               cd cdn
               git init
+               echo "node_modules" > .gitignore
+              git commit -am "init"
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
               git fetch
               echo f
