@@ -79,7 +79,7 @@ const runAction = (name) => {
 			writeFileSync(`..\\cdn\\${name}`,result)
 		}).catch((err)=>{log(err)})
 		
-		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg && git add * && git commit -m "add"`,__dirname)
+		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg && git add * && git commit -m "addim"`,__dirname)
 	}
 	parsefile("./add.txt")
 	
