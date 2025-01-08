@@ -63,8 +63,9 @@ jobs:
               git init
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
               git fetch origin
-              git checkout -t origin/pages
               git reset --hard origin/pages
+              git checkout -t origin/pages
+              
               echo "node_modules" > .gitignore
               git add .gitignore
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
