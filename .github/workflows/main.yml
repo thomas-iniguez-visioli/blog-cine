@@ -64,7 +64,7 @@ jobs:
               echo a
               echo "node_modules" > .gitignore
               git commit -am "init"
-              
+              echo c
               git pull 
               cd ..
               cd dist
