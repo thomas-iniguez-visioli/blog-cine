@@ -55,21 +55,15 @@ jobs:
               mkdir -p dist cdn
               cd cdn
               git init
-              echo "node_modules" > .gitignore
-              git add .gitignore
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git
-              git pull origin main --rebase
-              git branch -m main
-              git push origin main --set-upstream
+              git fetch origin
+              git checkout -t origin/main
               cd ..
               cd dist
               git init
-              echo "node_modules" > .gitignore
-              git add .gitignore
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
-              git pull origin pages --rebase
-              git branch -m pages
-              git push origin pages --set-upstream
+              git fetch origin
+              git checkout -t origin/pages
               echo "node_modules" > .gitignore
               git add * */*
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
