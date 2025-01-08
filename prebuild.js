@@ -72,7 +72,7 @@ const runAction = (name) => {
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
 			writeFileSync(`..\\cdn\\${name}`,result.url)
-			run(` git add * */* && git commit -m "addimg"&& git pull && git push`)
+			run(` git add * */* && git commit -m "addimg"&& git pull && git push`,)
 		}).catch((err)=>{log(err)})
 		
 	}else{
