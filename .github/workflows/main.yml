@@ -79,7 +79,7 @@ jobs:
               git reset --soft HEAD~1
               git stash
               git add . * */*
-              git rebase --skip
+              
               git pull 
               git add .
               echo pull
