@@ -54,7 +54,7 @@ async function parse(url) {
 
   for (const script of scripts) {
     const body = script;
-    console.log(body.parent)
+    console.log(body.parentNode)
     const valide = containImage(body);
 
     if (valide) {
