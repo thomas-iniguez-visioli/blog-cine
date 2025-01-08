@@ -94,11 +94,12 @@ jobs:
               echo fetch
               git branch -m main
               echo branch
+              git branch --set-upstream-to=origin 
               echo temp >log.txt
               git add *  
               git commit -m temp
               
-              git branch --set-upstream-to=origin 
+               
               echo branch 2
               git remote -v
               echo test
