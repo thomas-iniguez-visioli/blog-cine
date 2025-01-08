@@ -96,7 +96,7 @@ console.log(readdirSync("./source"))
 readdirSync(join("./source",readdirSync("./source")[0])).map((filename)=>{
 	console.log(filename)
 	if(!forbiden.includes(filename)){
-		//runAction(filename.split(".")[0]);
+		runAction(filename.split(".")[0]);
 	}
     
 })
