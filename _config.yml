@@ -34,7 +34,7 @@ pretty_urls:
     list_number: 0
 # Directory
 source_dir: source
-public_dir: docs
+public_dir: dist
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
