@@ -77,7 +77,7 @@ const runAction = (name) => {
 		
 	}else{
 		geturl(name).then((result)=>{
-			writeFileSync(`..\\cdn\\${name}`,result)
+			writeFileSync(`..\\cdn\\${name}.jpg`,result)
 			run(` git add * */* && git commit -m "addimg"&& git pull && git push`,__dirname+"../cdn")
 		}).catch((err)=>{log(err)})
 		
