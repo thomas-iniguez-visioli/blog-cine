@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "git submodule init &&git submodule sync&& git &&rm dist/404.html  && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
+    "build": "git submodule init &&git submodule sync&& git submodule fetch&&rm dist/404.html  && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
     "import": "node prebuild.js>log.txt&&git submodule sync",
     "clean": "hexo clean && npm run import",
     "deploy": "hexo deploy",
