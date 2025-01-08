@@ -59,7 +59,7 @@ jobs:
               git add .gitignore
               git commit -m "init"
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
-              git fetch
+            
               echo f
               git branch -m main
               echo b
