@@ -67,7 +67,7 @@ jobs:
               echo a
           
               echo c
-              git pull 
+              git pull --rebase
               cd ..
               cd dist
               git init
