@@ -13,7 +13,7 @@ env:
   useyarn: false
   cname: none
   gitmsg: update
-  
+
 
 permissions:
   actions: write
@@ -46,7 +46,7 @@ jobs:
     
           
    
-    - id: Build-Vue
+    - name: Build-Vue
       
       run: |
               git config --global user.email "${{ env.gitemail }}"
@@ -72,7 +72,7 @@ jobs:
               echo test
               git fetch
               echo fetch
-              git pull -u 
+              git pull 
               echo pull
              
               cd ..
@@ -95,14 +95,14 @@ jobs:
               echo test
               git fetch
               echo fetch
-              git pull -u 
+              git pull  
               echo pull
              
               cd ..
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
               if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
            
-              git pull -u
+              git pull 
               git push  
               cd dist
               ln -s index.html 404.html
