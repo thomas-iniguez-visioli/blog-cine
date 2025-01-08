@@ -57,7 +57,7 @@ async function parse(url) {
     body.parentNode.childNodes.map((i) => {
    
         i.attributes.map((n) => {
-          console.log(n.name)
+      //    console.log(n.name)
           if (n.name == "src") {
             //console.log(n);
             
@@ -150,7 +150,7 @@ async function GOOGLE_IMG_SCRAP(config = {}) {
     buildQuery(QUERY, TRANSLATOR) +
     CUSTOM_PARAM +
     SAFE_SEARCH;
-console.log(URL)
+//console.log(URL)
   //parsing
   const result = await parse(URL);
 
