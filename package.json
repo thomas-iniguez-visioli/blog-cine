@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rm dist/404.html  && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
-    "import": "node prebuild.js>log.txt&&&&cd cdn && git add && ",
+    "import": "node prebuild.js>log.txt&&&&cd cdn && git add * */*&& ",
     "clean": "hexo clean && npm run import",
     "deploy": "hexo deploy",
     "server": "hexo server"
