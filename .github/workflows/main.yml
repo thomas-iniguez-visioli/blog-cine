@@ -61,7 +61,7 @@ jobs:
               echo fetch
               git branch -m pages
               echo branch
-              echo temp >log.txt
+              
               git add *
               
               git commit -m temp
