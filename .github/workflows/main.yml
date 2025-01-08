@@ -66,6 +66,7 @@ jobs:
               git init
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
               git fetch
+              git branch -m pages
               git branch --set-upstream-to=origin/pages
               git checkout pages
               git pull --rebase
