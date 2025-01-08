@@ -73,7 +73,7 @@ jobs:
               
               git fetch
               echo fetch
-             
+              git pull
               git stash
               git add . * */*
               
@@ -82,7 +82,7 @@ jobs:
               echo pull
              
               cd ..
-               cd cdn
+              cd cdn
               
               git init
               
