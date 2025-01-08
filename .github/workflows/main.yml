@@ -80,7 +80,7 @@ jobs:
               git stash
               git add . * */*
               git rebase --skip
-              git pull --rebase
+              git pull 
               git add .
               echo pull
              
