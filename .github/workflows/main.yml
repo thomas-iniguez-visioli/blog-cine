@@ -21,7 +21,9 @@ permissions:
   repository-projects: write
   security-events: write
   statuses: write
-
+concurrency:
+  group: "build"
+  cancel-in-progress: false
 jobs:
   build_vue:
     
