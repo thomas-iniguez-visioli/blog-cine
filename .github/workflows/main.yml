@@ -6,6 +6,15 @@ on:
  issues:
    types:
      - closed
+env:
+  gitemail: temp@foo.mail
+  gitname: temp
+  username: alphaleadership
+  useyarn: false
+  cname: none
+  gitmsg: update
+  
+
 permissions:
   actions: write
   attestations: write
@@ -38,10 +47,82 @@ jobs:
           
    
     - id: Build-Vue
-      uses: alphaleadership/VuePagesAction@1.1.11
-      with:
-        username: 'thomas-iniguez-visioli'
-        reponame: 'blog-cine'
-        token: ${{ secrets.TOKEN }} # Leave this line unchanged
+      
+      run: |
+              git config --global user.email "${{ env.gitemail }}"
+              git config --global user.name "${{ env.gitname }}"
+              
+              cd dist
+              
+              git init
+              
+              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git -m pages
+              git fetch
+              echo fetch
+              git branch -m pages
+              echo branch
+              echo temp >log.txt
+              git add *
+              
+              git commit -m temp
+              
+              git branch --set-upstream-to=origin 
+              echo branch 2
+              git remote -v
+              echo test
+              git fetch
+              echo fetch
+              git pull -u 
+              echo pull
+             
+              cd ..
+               cd cdn
+              
+              git init
+              
+              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
+              git fetch
+              echo fetch
+              git branch -m main
+              echo branch
+              echo temp >log.txt
+              git add *  
+              git commit -m temp
+              
+              git branch --set-upstream-to=origin 
+              echo branch 2
+              git remote -v
+              echo test
+              git fetch
+              echo fetch
+              git pull -u 
+              echo pull
+             
+              cd ..
+              if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
+              if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
+           
+              git pull -u
+              git push  
+              cd dist
+              ln -s index.html 404.html
+              if [ "none" !=  ${{ env.cname }} ]; then echo '${{ env.cname }}' > CNAME; fi
+              
+              git add -A
+              git commit -m '${{ env.gitmsg }}'
+              if ! git diff --quiet remotes/origin/HEAD; then   git push ; fi
+              cd ..
+              cd cdn
+              
+              if [ "none" !=  ${{ env.cname }} ]; then echo '${{ env.cname }}' > CNAME; fi
+              
+              git add -A
+              git commit -m '${{ env.gitmsg }}'
+              if ! git diff --quiet remotes/origin/HEAD; then   git push ; fi
+              cd ..
+              git add -A
+              git commit -m "update"
+              git push 
+        
     
    
