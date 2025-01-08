@@ -78,7 +78,7 @@ jobs:
               
               git branch -m pages
               git pull --set-upstream=origin/pages
-              git branch pages --set-upstream-to=origin/pages
+              git branch pages --set-upstream=origin/pages
               echo "node_modules" > .gitignore
               git add * */*
               git commit -m "init"
