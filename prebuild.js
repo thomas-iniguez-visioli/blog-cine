@@ -77,7 +77,7 @@ const runAction = (name) => {
 		
 	}else{
 		geturl(name).then((result)=>{
-			console.log(result)
+			console.log("lien :"+result)
 		//	writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
 			run(`curl "${result.replace('&amp;s','')}" -o cdn/${name}.jpg >${name}.log &&git add * cdn/* &&ls`,__dirname+"/cdn")
 		}).catch((err)=>{log(err)})
