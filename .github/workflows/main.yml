@@ -52,86 +52,25 @@ jobs:
               git config --global user.email "${{ env.gitemail }}"
               git config --global user.name "${{ env.gitname }}"
               git config pull.rebase true --global
-              cd dist
-              
-              git init
-              
-              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git -m pages
-              git fetch
-              echo fetch
-              
-              echo branch
-              
-              git add . 
-              
-              git commit -m temp
-              
-              git branch --set-upstream-to=origin 
-              echo branch 2
-              git remote -v
-              echo test
-              
-              git fetch
-              echo fetch
-              git add . * */*
-              git pull --rebase
-              git stash
-              git add . * */*
-              
-              git pull 
-              git add .
-              echo pull
-             
-              cd ..
+              mkdir -p dist cdn
               cd cdn
-              
               git init
-              
-              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
+              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git
               git fetch
-              echo fetch
-              git branch 
-              echo branch
-              git branch --set-upstream-to=origin 
-              echo temp >log.txt
-              git add *  
-              git commit -m "temp"
-              
-               
-              echo branch 2
-              git remote -v
-              echo test
-              git fetch
-              echo fetch
-              git pull  
-              git add . 
-              echo pull
-             
+              git branch --set-upstream-to=origin/main
+              git checkout main
+              git pull --rebase
               cd ..
+              cd dist
+              git init
+              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
+              git fetch
+              git branch --set-upstream-to=origin/pages
+              git checkout pages
+              git pull --rebase
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
               if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
-           
-              git pull 
-              git push  
-              cd dist
-              ln -s index.html 404.html
-              if [ "none" !=  ${{ env.cname }} ]; then echo '${{ env.cname }}' > CNAME; fi
-              
               git add -A
               git commit -m '${{ env.gitmsg }}'
-              if ! git diff --quiet remotes/origin/HEAD; then   git push ; fi
+              if ! git diff --quiet remotes/origin/pages; then   git push ; fi
               cd ..
-              cd cdn
-              
-              if [ "none" !=  ${{ env.cname }} ]; then echo '${{ env.cname }}' > CNAME; fi
-              
-              git add -A
-              git commit -m '${{ env.gitmsg }}'
-              if ! git diff --quiet remotes/origin/HEAD; then   git push ; fi
-              cd ..
-              git add -A
-              git commit -m "update"
-              git push 
-        
-    
-   
