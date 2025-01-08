@@ -78,6 +78,7 @@ const runAction = (name) => {
 	}else{
 		geturl(name).then((result)=>{
 			writeFileSync(`..\\cdn\\${name}`,result)
+			
 		}).catch((err)=>{log(err)})
 		
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg `,__dirname)
