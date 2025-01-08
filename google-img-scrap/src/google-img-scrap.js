@@ -49,7 +49,7 @@ async function parse(url) {
   const parser = new FastHTMLParser(response.body);
 
   const scripts = parser.getElementsByTagName("g-img");
-  //console.log(scripts)
+  console.log(scripts)
   if (!scripts) return result;
 
   for (const script of scripts) {
