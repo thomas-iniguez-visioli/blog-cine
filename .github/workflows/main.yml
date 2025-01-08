@@ -73,10 +73,7 @@ jobs:
               
               git fetch
               echo fetch
-              echo temp >log.txt
-              git add . * */*
-              git commit -m "temp"
-              git reset --soft HEAD~1
+             
               git stash
               git add . * */*
               
