@@ -73,7 +73,7 @@ jobs:
               
               git fetch
               echo fetch
-              git pull
+              git pull --rebase
               git stash
               git add . * */*
               
