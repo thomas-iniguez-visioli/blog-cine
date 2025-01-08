@@ -42,6 +42,6 @@ jobs:
       with:
         username: 'thomas-iniguez-visioli'
         reponame: 'blog-cine'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        token: ${{ secrets.TOKEN }} # Leave this line unchanged
     
    
