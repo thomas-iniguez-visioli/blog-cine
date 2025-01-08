@@ -71,7 +71,7 @@ const runAction = (name) => {
 	console.log(name)
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
-			run(`curl "${result}" -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
+		//	run(`curl "${result}" -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
 		}).catch((err)=>{log(err)})
 		
 	}else{
