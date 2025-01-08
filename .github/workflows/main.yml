@@ -78,7 +78,7 @@ jobs:
               echo "node_modules" > .gitignore
               git commit -am "init"
               
-              git pull 
+              git pull --rebase
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
               if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
               git add -A
