@@ -81,7 +81,7 @@ const runAction = (name) => {
 			console.log(__dirname)
 			/*&& curl "${result.replace('&amp;s','')}" -o cdn/${name}.jpg >${name}.log && cd cdn &&git add * * &&git commit -m"${name}" --amend &&git pull &&git push*/
 		//	writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
-			run(`ls ./cdn  `,__dirname+"")
+			run(`dir ./cdn  `,__dirname+"")
 		}).catch((err)=>{log(err)})
 		
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg `,__dirname)
