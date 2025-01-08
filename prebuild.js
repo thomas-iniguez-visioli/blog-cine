@@ -49,7 +49,7 @@ const run = (cmd, cwd) => execSync(cmd, { encoding: "utf8", stdio: "inherit", cw
  */
 const parse=(array,file)=>{
 	const choix=array.pop()
-	//console.log(choix.length)
+	console.log(choix.length)
 	if(typeof choix !=="undefined")
 	if(choix.trim().length>=1){
 		run("npx hexo new post "+'"'+choix+'"',__dirname)
