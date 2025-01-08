@@ -76,7 +76,7 @@ jobs:
               echo temp >log.txt
               git add . * */*
               git commit -m "temp"
-              git rebase origin/pages 
+              git rebase origin/pages --abort
               git merge --allow-unrelated-histories -v -m "merge" origin/pages
               git pull --ff-only
               git add .
