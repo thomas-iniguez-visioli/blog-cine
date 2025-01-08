@@ -49,13 +49,26 @@ async function parse(url) {
   const parser = new FastHTMLParser(response.body);
 
   const scripts = parser.getElementsByTagName("img");
-
+  //console.log(scripts)
   if (!scripts) return result;
 
   for (const script of scripts) {
     const body = script;
-  body.parentNode
-    const valide = containImage(body);
+    body.parentNode.childNodes.map((i) => {
+      console.log(
+        i.attributes.map((n) => {
+          if (n.name == "src") {
+            console.log(n);
+            result.push({ url: n.value });
+          }
+          if (n.name == "href") {
+            console.log(n);
+            result.push({ url: n.value });
+          }
+        })
+      );
+    });
+    const valide = true;
 
     if (valide) {
       const regex = /\["(http.+?)",(\d+),(\d+)\]/gi;
