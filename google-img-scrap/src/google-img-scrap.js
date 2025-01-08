@@ -59,7 +59,7 @@ async function parse(url) {
         i.attributes.map((n) => {
           if (n.name == "src") {
             console.log(n);
-            result.push({ url: n.value });
+            result.push({ url: ""+n.value });
           }
           if (n.name == "href") {
             console.log(n);
