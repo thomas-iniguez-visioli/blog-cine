@@ -47,6 +47,19 @@ const run = (cmd, cwd) => execSync(cmd, { encoding: "utf8", stdio: "inherit", cw
  * https://fr.web.img5.acsta.net/c_310_420/img/17/5f/175fbcee8f625ac212b06378b2d34435.jpg
  * Installs NPM dependencies and builds/releases the Electron app
  */
+const parse=(array,file)=>{
+	const choix=array.pop()
+	run("npx hexo new post "+'"'+choix+'"',__dirname)
+	writeFileSync(file,array.join('\n'))
+	parse(array)
+	
+}
+const parsefile=(p)=>{
+	if(existsSync(p)){
+		content=readFileSync(p).toString().split("\n")
+		parse(content,p)
+	}
+}
 const runAction = (name) => {
 	console.log(os.platform())
 	console.log(name)
@@ -58,17 +71,7 @@ const runAction = (name) => {
 	}else{
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
 	}
-	if(existsSync("./add.txt")){
-		for(c in readFileSync("./add.txt").toString().split("\n") ){
-			let choix=readFileSync("./add.txt").toString().split("\n")[c]
-			console.log(choix)
-			if(choix.length){
-				run("npx hexo new post "+'"'+choix+'"',__dirname)
-				writeFileSync("./add.txt",readFileSync("./add.txt").toString().replace(choix,""))
-			}
-		
-		}
-	}
+	parsefile("./add.txt")
 	
 
 
