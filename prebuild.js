@@ -71,7 +71,7 @@ const runAction = (name) => {
 	console.log(name)
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
-			writeFileSync(`..\\cdn\\nam`)
+			writeFileSync(`..\\cdn\\`)
 		}).catch((err)=>{log(err)})
 		
 	}else{
