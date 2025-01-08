@@ -51,7 +51,7 @@ jobs:
       run: |
               git config --global user.email "${{ env.gitemail }}"
               git config --global user.name "${{ env.gitname }}"
-              
+              git config pull.rebase true --global
               cd dist
               
               git init
