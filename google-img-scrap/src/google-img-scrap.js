@@ -72,20 +72,7 @@ async function parse(url) {
     });
     const valide = true;
 
-    if (valide) {
-      const regex = /\["(http.+?)",(\d+),(\d+)\]/gi;
-
-      let res = null;
-
-      while ((res = regex.exec(body)) != null) {
-        if (res.length >= 4 && res[1].match(/http/gi).length < 2)
-          result.push({
-            url: unicodeToChar(res[1]),
-            height: res[2],
-            width: res[3],
-          });
-      }
-    }
+  
   }
 
   return result;
