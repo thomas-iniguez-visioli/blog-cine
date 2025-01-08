@@ -77,7 +77,7 @@ jobs:
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
               
               git branch -m pages
-              git pull --set-upstream=origin/pages
+              git pull --set-upstream origin/pages
               git branch pages --set-upstream-to=origin/pages
               echo "node_modules" > .gitignore
               git add * */*
