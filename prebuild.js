@@ -55,6 +55,7 @@ const parse=(array,file)=>{
 		run("npx hexo new post "+'"'+choix+'"',__dirname)
 		writeFileSync(file,array.join('\n'))
 	}
+	parse(array,file)
 }
 	
 	
