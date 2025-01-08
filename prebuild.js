@@ -85,7 +85,7 @@ const runAction = (name) => {
 			run(`dir ./cdn && curl "${result.replace('&amp;s','')}" -o "./cdn/${name+new Date().toString()}.jpg" >${name}.log &&cd ./cdn &&git add * *  &&git commit -m"${name}" --amend &&git pull origin main --rebase  &&git push origin main`,__dirname+"")
 		}).catch((err)=>{log(err)})
 		
-		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name+new Date().toString()}.jpg `,__dirname)
+		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o "dist/${name+new Date().toString()}.jpg `,__dirname)
 	}
 	parsefile("./add.txt")
 	
