@@ -92,12 +92,12 @@ jobs:
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git -m main
               git fetch
               echo fetch
-              git branch -m main
+              git branch 
               echo branch
               git branch --set-upstream-to=origin 
               echo temp >log.txt
               git add *  
-              git commit -m temp
+              git commit -m "temp"
               
                
               echo branch 2
