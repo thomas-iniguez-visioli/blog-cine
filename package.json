@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "rm dist/404.html &&git clone https://github.com/thomas-iniguez-visioli/blog-cine/cdn.git  && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
+    "build": "rm dist/404.html &&git clone https://github.com/thomas-iniguez-visioli/blog-cine/cdn.git .. && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
     "import": "node prebuild.js",
     "clean": "hexo clean && npm run import",
     "deploy": "hexo deploy",
