@@ -79,7 +79,7 @@ const runAction = (name) => {
 		geturl(name).then((result)=>{
 			console.log(result)
 		//	writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
-			run(`curl "${result.replace('&amp;s','')}" -o ${name}.jpg `,__dirname+"/cdn")
+			run(`curl "${result.replace('&amp;s','')}" -o ${name}.jpg && `,__dirname+"/cdn")
 		}).catch((err)=>{log(err)})
 		
 		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg `,__dirname)
