@@ -49,7 +49,7 @@ const run = (cmd, cwd) => execSync(cmd, { encoding: "utf8", stdio: "inherit", cw
  */
 const parse=(array,file)=>{
 	const choix=array.pop()
-	if(choix.length!=)
+	if(choix.length!=0)
 	run("npx hexo new post "+'"'+choix+'"',__dirname)
 	writeFileSync(file,array.join('\n'))
 	parse(array)
