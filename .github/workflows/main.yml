@@ -75,8 +75,9 @@ jobs:
               git fetch
               git branch -m pages
               git branch pages --set-upstream-to=origin/pages
-              echo "node_modules" > .gitignore
-              git commit -am "init"
+               echo "node_modules" > .gitignore
+              git add .gitignore
+              git commit -m "init""
               
               git pull --rebase
               if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
