@@ -71,7 +71,7 @@ jobs:
               git remote -v
               echo test
               git pull --rebase
-              git add . && git rebase --continue
+              git add . && git rebase --abort
               git fetch
               echo fetch
               git pull --rebase
