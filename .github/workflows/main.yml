@@ -59,7 +59,7 @@ jobs:
               git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git -m pages
               git fetch
               echo fetch
-              git branch -m pages
+              
               echo branch
               
               git add . 
