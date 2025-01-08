@@ -55,7 +55,7 @@ async function parse(url) {
   for (const script of scripts) {
     const body = script;
     body.parentNode.childNodes.map((i) => {
-      console.log(
+   
         i.attributes.map((n) => {
           console.log(n.name)
           if (n.name == "src") {
