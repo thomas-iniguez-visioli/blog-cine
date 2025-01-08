@@ -38,7 +38,7 @@ jobs:
           
    
     - id: Build-Vue
-      uses: alphaleadership/VuePagesAction@latest
+      uses: alphaleadership/VuePagesAction@1.1.7
       with:
         username: 'thomas-iniguez-visioli'
         reponame: 'blog-cine'
