@@ -104,8 +104,8 @@ jobs:
               echo test
               git fetch
               echo fetch
-              git pull  --rebase
-              git add . && git rebase --continue
+              git pull  
+              git add . 
               echo pull
              
               cd ..
