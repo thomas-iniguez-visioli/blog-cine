@@ -77,7 +77,7 @@ jobs:
               git add . * */*
               git commit -m "temp"
               git reset --soft HEAD~1
-              
+              git stash
               git pull --rebase
               git add .
               echo pull
