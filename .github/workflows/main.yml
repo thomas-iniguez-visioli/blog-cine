@@ -73,7 +73,7 @@ jobs:
               
               git fetch
               echo fetch
-              git merge --rebase origin/pages
+              git merge --allow-unrelated-histories -v -m "merge" origin/pages
               git pull --ff-only
               git add .
               echo pull
