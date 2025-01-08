@@ -150,7 +150,7 @@ async function GOOGLE_IMG_SCRAP(config = {}) {
     buildQuery(QUERY, TRANSLATOR) +
     CUSTOM_PARAM +
     SAFE_SEARCH;
-console.log(url)
+console.log(URL)
   //parsing
   const result = await parse(URL);
 
