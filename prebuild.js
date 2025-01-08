@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const { existsSync, readFileSync,readdirSync, writeFileSync } = require("fs");
 const { join } = require("path");
 const os =require("node:os")
-const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('google-img-scrap');
+const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('./google-img-scrap');
 const { error } = require("console");
 /**
  * Logs to the console
