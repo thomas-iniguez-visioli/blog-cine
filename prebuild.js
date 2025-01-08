@@ -56,7 +56,7 @@ const parse=(array,file)=>{
 		writeFileSync(file,array.join('\n'))
 	}
 }
-	parse(array,file)
+	
 	
 }
 const parsefile=(p)=>{
