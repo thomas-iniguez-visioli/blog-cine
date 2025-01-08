@@ -74,6 +74,7 @@ jobs:
               git fetch
               echo fetch
               git add . * */*
+              git commit -m "temp"
               git merge --allow-unrelated-histories -v -m "merge" origin/pages
               git pull --ff-only
               git add .
