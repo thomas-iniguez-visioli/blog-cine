@@ -73,8 +73,8 @@ jobs:
               
               git fetch
               echo fetch
-              git pull 
-              git add . && git rebase --continue
+              git pull --ff-only
+              git add .
               echo pull
              
               cd ..
