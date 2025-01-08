@@ -62,10 +62,9 @@ jobs:
               echo f
               git branch -m main
               echo b
-              git branch  --set-upstream-to=origin/main
+              git branch main --set-upstream-to=origin/main
               echo a
-              echo "node_modules" > .gitignore
-              git commit -am "init"
+          
               echo c
               git pull 
               cd ..
