@@ -78,7 +78,7 @@ jobs:
               git commit -m "temp"
               git reset --soft HEAD~1
               
-              git pull --ff-only
+              git pull --rebase
               git add .
               echo pull
              
