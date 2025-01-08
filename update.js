@@ -63,4 +63,4 @@ async function pullCommitAndPushIfNeeded() {
 }
 pullCommitAndPushIfNeeded()
 // Planification de l'exécution toutes les 30 secondes
-setInterval(pullCommitAndPushIfNeeded, 30000);
+setInterval(pullCommitAndPushIfNeeded, 1200000);
