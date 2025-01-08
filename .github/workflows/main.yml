@@ -1,80 +1,50 @@
-name: Build Vue
-on: 
- workflow_dispatch:
- push:
+name: Pages
 
- issues:
-   types:
-     - closed
-env:
-  gitemail: temp@foo.mail
-  gitname: temp
-  username: alphaleadership
-  useyarn: false
-  cname: none
-  gitmsg: update
+on:
+  push:
+    branches:
+      - main # default branch
 
-
-permissions:
-  actions: write
-  attestations: write
-  checks: write
-  contents: write
-  deployments: write
-  id-token: write
-  issues: write
-  discussions: write
-  packages: write
-  pages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
-concurrency:
-  group: "build"
-  cancel-in-progress: true
 jobs:
-  build_vue:
-    
-    
+  build:
     runs-on: ubuntu-latest
-    name: Build Vue
     steps:
-    - uses: actions/checkout@v4
-   
-  
-    
-          
-   
-    - name: Build-Vue
-      
-      run: |
-              git config --global user.email "${{ env.gitemail }}"
-              git config --global user.name "${{ env.gitname }}"
-              git config pull.rebase true --global
-              mkdir -p dist cdn
-              cd cdn
-              git init
-              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/cdn.git
-              git fetch origin
-              git checkout -t origin/main
-              cd ..
-              cd dist
-              git init
-              git remote add origin https://${{ env.username }}:${{ SECRETS.TOKEN }}@github.com/thomas-iniguez-visioli/blog-cine.git
-              git fetch origin
-              git reset --soft origin/pages
-              git add * */*
-              git checkout -t origin/pages
-              
-              echo "node_modules" > .gitignore
-              git add .gitignore * */*
-              git commit -m "7"
-              cd ..
-              if [ true ==  ${{ env.useyarn }} ]; then yarn install --frozen-lockfile; else npm i; fi
-              if [ true ==  ${{ env.useyarn }} ]; then yarn build; else npm run build; fi
-             
-              cd dist
-               git add -A
-              git commit -m '${{ env.gitmsg }}'
-              if ! git diff --quiet remotes/origin/pages; then   git push ; fi
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
+          # Ref: https://github.com/actions/setup-node#supported-version-syntax
+          node-version: "23"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
