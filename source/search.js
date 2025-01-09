@@ -35,7 +35,7 @@ var searchFunc = function(path, search_id, content_id) {
 
             var $input = document.getElementById(search_id);
 			if (!$input) return;
-            var $resultContent = document.getElementById(content_id);
+            var $resultContent = document.getElementById("content_id");
             if ($("#local-search-input").length > 0) {
                 $input.addEventListener('input', function () {
                     var str = '<ul class=\"search-result-list\">';
