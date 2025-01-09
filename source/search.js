@@ -33,7 +33,7 @@ var searchFunc = function(path, search_id, content_id) {
                 };
             }).get();
 
-            var $input = document.getElementById("");
+            var $input = document.getElementById("local-search-result");
 			if (!$input) return;
             var $resultContent = document.getElementById(content_id);
             if ($("#local-search-input").length > 0) {
