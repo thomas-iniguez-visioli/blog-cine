@@ -97,7 +97,7 @@ updated_option: 'mtime'
 seo:
   # minify html
   html:
-    enable: true
+    enable: false
     # fix invalid html
     fix: true
     # exclude from minify
