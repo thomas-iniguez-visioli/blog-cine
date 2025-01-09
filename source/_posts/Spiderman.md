@@ -5,4 +5,4 @@ star: 5
 date: 2025-01-08 08:29:14
 tags:
 ---
-Spider-Man (2002) est un film de super-héros qui raconte l'origine de l'emblématique personnage de Peter Parker Lors d'une excursion scolaire, il est mordu par une araignée génétiquement modifiée, ce qui lui confère des pouvoirs extraordinaires.Au fur et à mesure que Peter maîtrise ses nouvelles capacités, il décide d'utiliser ses pouvoirs pour combattre le crime et protéger les innocents.
+ce film c'est un classique , a connaitre absolument sinon ta vie est ratée meme une personne qui a l'arachnophobie kifferait Spiderman. On a deja tous réve de se faire piquer par une araignée mais au lieu de ça on a eu 38 piqures contre le covid.
