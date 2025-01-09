@@ -4,7 +4,7 @@
 	xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
 		<title>la science du cinéma</title>
-		<link>https://thomas-iniguez-visioli.github.io/blog-cine</link>
+		<link>http://localhost:4000/blog-cine</link>
 		<description></description>
 		<language>fr</language>
 		<lastBuildDate>2025-01-09T16:08:27.314Z</lastBuildDate>
@@ -13,104 +13,104 @@
     <image>
       <url>https://w7.pngwing.com/pngs/745/306/png-transparent-gallery-image-images-photo-picture-pictures-set-app-incredibles-icon-thumbnail.png</url>
       <title>la science du cinéma</title>
-      <link>https://thomas-iniguez-visioli.github.io/blog-cine</link>
+      <link>http://localhost:4000/blog-cine</link>
     </image>
-		<atom:link href="https://thomas-iniguez-visioli.github.io/blog-cine/rss.xml" rel="self" type="application/rss+xml"/>
+		<atom:link href="http://localhost:4000/blog-cine/rss.xml" rel="self" type="application/rss+xml"/>
 		<item>
 			<title>Interstellar</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Interstellar/</link>
+			<link>http://localhost:4000/blog-cine/2025/Interstellar/</link>
 			<description>Interstellar</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T08:39:32.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Interstellar/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Interstellar/</guid>
 		</item>
 		<item>
 			<title>Spiderman</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Spiderman/</link>
+			<link>http://localhost:4000/blog-cine/2025/Spiderman/</link>
 			<description>Spiderman</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T07:29:14.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Spiderman/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Spiderman/</guid>
 		</item>
 		<item>
 			<title>Les Fausses blondes infiltr&#xE9;es</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Les-Fausses-blondes-infiltrees/</link>
+			<link>http://localhost:4000/blog-cine/2025/Les-Fausses-blondes-infiltrees/</link>
 			<description>Les Fausses blondes infiltr&#x26;#xE9;es</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T07:45:25.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Les-Fausses-blondes-infiltrees/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Les-Fausses-blondes-infiltrees/</guid>
 		</item>
 		<item>
 			<title>Massacre &#xE0; la tron&#xE7;onneuse</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Massacre-a-la-tronconneuse/</link>
+			<link>http://localhost:4000/blog-cine/2025/Massacre-a-la-tronconneuse/</link>
 			<description>Massacre &#x26;#xE0; la tron&#x26;#xE7;onneuse</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T07:26:45.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Massacre-a-la-tronconneuse/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Massacre-a-la-tronconneuse/</guid>
 		</item>
 		<item>
 			<title>iron man</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/iron-man/</link>
+			<link>http://localhost:4000/blog-cine/2025/iron-man/</link>
 			<description>iron man</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-07T16:06:09.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/iron-man/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/iron-man/</guid>
 		</item>
 		<item>
 			<title>pr&#xE9;sentation</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/</link>
+			<link>http://localhost:4000/blog-cine/2025/hello-world/</link>
 			<description>pr&#x26;#xE9;sentation</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T15:06:21.906Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/hello-world/</guid>
 		</item>
 		<item>
 			<title>Transformers</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Transformers/</link>
+			<link>http://localhost:4000/blog-cine/2025/Transformers/</link>
 			<description>Transformers</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T07:30:34.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Transformers/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Transformers/</guid>
 		</item>
 		<item>
 			<title>pacific rim</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/pacific-rim/</link>
+			<link>http://localhost:4000/blog-cine/2025/pacific-rim/</link>
 			<description>pacific rim</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-07T16:06:07.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/pacific-rim/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/pacific-rim/</guid>
 		</item>
 		<item>
 			<title>ready player one</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/ready-player-one/</link>
+			<link>http://localhost:4000/blog-cine/2025/ready-player-one/</link>
 			<description>ready player one</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-07T16:06:06.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/ready-player-one/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/ready-player-one/</guid>
 		</item>
 		<item>
 			<title>star wars la menace fantome</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/star-wars-la-menace-fantome/</link>
+			<link>http://localhost:4000/blog-cine/2025/star-wars-la-menace-fantome/</link>
 			<description>star wars la menace fantome</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-07T08:02:17.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/star-wars-la-menace-fantome/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/star-wars-la-menace-fantome/</guid>
 		</item>
 		<item>
 			<title>Fast And Furious</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Fast-And-Furious/</link>
+			<link>http://localhost:4000/blog-cine/2025/Fast-And-Furious/</link>
 			<description>Fast And Furious</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-09T13:47:37.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Fast-And-Furious/</guid>
+			<guid>http://localhost:4000/blog-cine/2025/Fast-And-Furious/</guid>
 		</item>
 		<item>
 			<title>about</title>
-			<link>https://thomas-iniguez-visioli.github.io/blog-cine/about/</link>
+			<link>http://localhost:4000/blog-cine/about/</link>
 			<description>about</description>
 			<author>noreply@blogger.com (thomas iniguez visioli)</author>
 			<pubDate>2025-01-08T09:11:53.000Z</pubDate>
-			<guid>https://thomas-iniguez-visioli.github.io/blog-cine/about/</guid>
+			<guid>http://localhost:4000/blog-cine/about/</guid>
 		</item>
 	</channel>
 </rss>
