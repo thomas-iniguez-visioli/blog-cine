@@ -19,7 +19,7 @@
 //
 
 var searchFunc = function (path, search_id) {
-  "use strict";
+ 
   $.ajax({
     url: path,
     dataType: "json",
