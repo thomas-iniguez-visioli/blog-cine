@@ -1,7 +1,7 @@
 name: Pages
 
 on:
-  worflow_dispatch
+  workflow_dispatch:
   push:
     branches:
       - main # default branch
