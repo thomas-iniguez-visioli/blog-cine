@@ -111,7 +111,7 @@ ignore:
 theme: Gradient
 search:
   path: search.json
-  field: post
+  field: all
   content: true
   
 # Deployment
