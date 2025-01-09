@@ -72,7 +72,7 @@ const runAction = (name) => {
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
 			//writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
-			run(`curl "${result}" -o ${name}.jpg `,__dirname+"/cdn")
+			run(`curl "${result}" -o ${name}.jpg `,__dirname+"../cdn")
 		}).catch((err)=>{log(err)})
 		
 	}else{
