@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-news/0.9 http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
   <url>
-    <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/</loc>
-    <news:news>
-      <news:publication>
-        <news:language>fr</news:language>
-        <news:name>Unknown Author</news:name>
-      </news:publication>
-      <news:title>présentation</news:title>
-      <news:publication_date>2025-01-08T16:06:21+01:00</news:publication_date>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Fast-And-Furious/</loc>
     <news:news>
       <news:publication>
@@ -20,6 +9,17 @@
       </news:publication>
       <news:title>Fast And Furious</news:title>
       <news:publication_date>2025-01-09T14:47:37+01:00</news:publication_date>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/</loc>
+    <news:news>
+      <news:publication>
+        <news:language>fr</news:language>
+        <news:name>Unknown Author</news:name>
+      </news:publication>
+      <news:title>présentation</news:title>
+      <news:publication_date>2025-01-08T16:06:21+01:00</news:publication_date>
     </news:news>
   </url>
   <url>
@@ -89,17 +89,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/ready-player-one/</loc>
-    <news:news>
-      <news:publication>
-        <news:language>fr</news:language>
-        <news:name>Unknown Author</news:name>
-      </news:publication>
-      <news:title>ready player one</news:title>
-      <news:publication_date>2025-01-07T17:06:06+01:00</news:publication_date>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/pacific-rim/</loc>
     <news:news>
       <news:publication>
@@ -108,6 +97,17 @@
       </news:publication>
       <news:title>pacific rim</news:title>
       <news:publication_date>2025-01-07T17:06:07+01:00</news:publication_date>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thomas-iniguez-visioli.github.io/blog-cine/2025/ready-player-one/</loc>
+    <news:news>
+      <news:publication>
+        <news:language>fr</news:language>
+        <news:name>Unknown Author</news:name>
+      </news:publication>
+      <news:title>ready player one</news:title>
+      <news:publication_date>2025-01-07T17:06:06+01:00</news:publication_date>
     </news:news>
   </url>
   <url>
