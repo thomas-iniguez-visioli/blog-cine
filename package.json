@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build":"npm install alphaleadership/hexo-deployer-git --save && hexo clean  && hexo deploy",
+    "build": "npm install alphaleadership/hexo-deployer-git --save && hexo clean  && hexo deploy",
     "import": "node prebuild.js>log.txt",
     "clean": "hexo clean &&hexo generate ",
     "deploy": "hexo deploy",
@@ -16,6 +16,7 @@
     "google-images": "^2.1.0",
     "google-img-scrap": "github:alphaleadership/google-img-scrap",
     "hexo": "^7.3.0",
+    "hexo-deployer-git": "github:alphaleadership/hexo-deployer-git",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
