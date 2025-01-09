@@ -18,7 +18,7 @@
 // 02110-1301 USA
 //
 
-var searchFunc = function (path, search_id, content_id) {
+var searchFunc = function (path, search_id) {
   "use strict";
   $.ajax({
     url: path,
@@ -139,3 +139,4 @@ var searchFunc = function (path, search_id, content_id) {
     },
   });
 };
+
