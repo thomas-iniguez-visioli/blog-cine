@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm update &&  && hexo clean  && hexo deploy",
+    "build": "npm update && ping && hexo clean  && hexo deploy",
     "import": "node prebuild.js>log.txt",
     "clean": "hexo clean &&hexo generate ",
     "deploy": "hexo deploy",
