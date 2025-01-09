@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const { existsSync, readFileSync,readdirSync, writeFileSync } = require("fs");
 const { join } = require("path");
 const os =require("node:os")
-const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('google-img-scrap');
+const { GOOGLE_IMG_SCRAP , GOOGLE_QUERY } = require('./google-img-scrap');
 const { error } = require("console");
 /**
  * Logs to the console
@@ -71,11 +71,21 @@ const runAction = (name) => {
 	console.log(name)
 	if(os.platform()==="win32"){
 		geturl(name).then((result)=>{
-			run(`curl "${result}" -o ..\\cdn\\${name}.jpg && git add *  `,__dirname)
+			//writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
+			run(`curl "${result}" -o ${name}.jpg `,__dirname+"/cdn")
 		}).catch((err)=>{log(err)})
 		
 	}else{
-		run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o dist/${name}.jpg`,__dirname)
+		geturl(name).then((result)=>{
+			console.log("lien :"+result)
+			console.log(__dirname)
+			console.log(readdirSync("./cdn"))
+			/*&& curl "${result.replace('&amp;s','')}" -o cdn/${name}.jpg >${name}.log && cd cdn &&git add * * &&git commit -m"${name}" --amend &&git pull &&git push*/
+		//	writeFileSync(`..\\cdn\\${name}.jpg`,result.url)
+			run(`dir ./cdn && curl "${result.replace('&amp;s','')}" -o "./cdn/${name+new Date().toString()}.jpg" >${name}.log &&cd ./cdn &&git add * *  &&git commit -m"${name}" --amend &&git pull origin main --rebase  &&git push origin main`,__dirname+"")
+		}).catch((err)=>{log(err)})
+		
+		//run(`curl https://thomas-iniguez-visioli.github.io/cdn/${name}.jpg -o "dist/${name+new Date().toString()}.jpg" `,__dirname)
 	}
 	parsefile("./add.txt")
 	
@@ -93,7 +103,7 @@ const geturl=async (name)=>{
 	return test.result[1].url
 }
 console.log(readdirSync("./source"))
-readdirSync(join("./source",readdirSync("./source")[0])).map((filename)=>{
+readdirSync(join("./source","_posts")).map((filename)=>{
 	console.log(filename)
 	if(!forbiden.includes(filename)){
 		runAction(filename.split(".")[0]);

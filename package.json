@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "rm dist/404.html  && cd dist &&git  commit -a -m'temp' && git pull && git push && cd .. &&npm run import && hexo generate",
-    "import": "node prebuild.js",
-    "clean": "hexo clean && npm run import",
+    "build": "npm update && hexo clean  && hexo deploy",
+    "import": "node prebuild.js>log.txt",
+    "clean": "hexo clean &&hexo generate ",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
@@ -16,6 +16,7 @@
     "google-images": "^2.1.0",
     "google-img-scrap": "github:alphaleadership/google-img-scrap",
     "hexo": "^7.3.0",
+    "hexo-deployer-git": "github:alphaleadership/hexo-deployer-git",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
@@ -25,7 +26,6 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-   
     "simple-git": "^3.27.0"
   }
 }

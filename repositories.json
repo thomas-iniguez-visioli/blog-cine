@@ -1,5 +1,6 @@
 [
   { "remote": "origin", "path": "." },
   { "remote": "origin", "path": "..\\cdn" },
-  { "remote": "origin", "path": "..\\blog","branch":"pages" }
+  { "remote": "origin", "path": "..\\blog","branch":"pages" },
+  { "remote": "origin", "path": "..\\hexo-deployer-git","branch":"master" }
 ]

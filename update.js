@@ -30,7 +30,7 @@ async function pullCommitAndPushIfNeeded() {
 
       // Vérifier si les commits locaux et distants sont différents
       const localCommit = await git.revparse(['HEAD']);
-      const remoteCommit = await git.revparse([`remotes/${repoConfig.remote}/HEAD`]);
+      const remoteCommit = await git.revparse([`remotes/${repoConfig.remote}/${repoConfig.branch||"main"}`]);
 
       if (localCommit !== remoteCommit) {
         // Effectuer git pull

@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://thomas-iniguez-visioli.github.io/blog-cine/
-permalink: :year/:month/:day/:title/
+permalink: :year/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -34,7 +34,7 @@ pretty_urls:
     list_number: 0
 # Directory
 source_dir: source
-public_dir: dist
+public_dir: docs
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -113,4 +113,9 @@ theme: Gradient
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: "https://github.com/thomas-iniguez-visioli/blog-cine"
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: pages
+  name: alphaleadership
+  email: thomas.iniguez@free.fr
