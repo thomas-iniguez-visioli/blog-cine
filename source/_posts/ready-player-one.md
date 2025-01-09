@@ -5,4 +5,4 @@ star: 4
 date: 2025-01-07 17:06:06
 tags:
 ---
-de ba
+de base je voulais voir squid game 
