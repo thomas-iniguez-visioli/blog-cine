@@ -110,7 +110,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: Gradient
 search:
-  path: ../source/search.xml
+  path: search.json
   field: all
   content: true
   

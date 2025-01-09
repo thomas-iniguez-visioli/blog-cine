@@ -1,3 +1,6 @@
+<div class="col-sm-3">
+    <%- partial('_partial/isidebar', {item: undefined}) %>
+</div>
 <div class="band">
     <% page.posts.each(function(item, index){ %>
     <%- partial('_partial/article-excerpt', {item: item, index:index+1}) %>

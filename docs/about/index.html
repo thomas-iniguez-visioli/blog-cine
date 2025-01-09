@@ -73,15 +73,16 @@
    
   </div>
   
+    <div id="site_search">
+     <div class="form-group">
+      <input type="text" id="local-search-input" name="q" results="0" placeholder="search" class="st-search-input st-default-search-input form-control"/>
+     </div>  
+   
+    </div>
   
+  <div id="local-search-result"></div>
 </nav>
 
-  <div id="site_search">
-   <div class="form-group">
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="search" class="st-search-input st-default-search-input form-control"/>
-   </div>  
- 
-  </div>
 
 
     
@@ -192,7 +193,7 @@
     </div>
   </div>
 </footer>
-    <div id="local-search-result"></div>
+    
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -203,7 +204,7 @@
     <script src="/blog-cine/search.js"></script> 
 
     <script type="text/javascript">      
-      var search_path = "../source/search.xml";
+      var search_path = "../source/search.json";
       if (search_path.length == 0) {
           search_path = "search.xml";
       }
