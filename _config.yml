@@ -113,7 +113,7 @@ search:
   path: search.json
   field: post
   content: true
-  template: ./search.json
+  
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
