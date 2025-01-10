@@ -195,8 +195,8 @@ include:
 exclude:
 ignore:
 search:
-  path: search.xml
-  field: post
+  path: search.json
+  field: all 
   content: true
   format: html
 # Extensions
