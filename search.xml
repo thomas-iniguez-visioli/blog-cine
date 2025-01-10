@@ -1,137 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Fast And Furious</title>
-      <link href="/blog-cine/2025/Fast-And-Furious/"/>
-      <url>/blog-cine/2025/Fast-And-Furious/</url>
-      
-        <content type="html"><![CDATA[<p>l’un des plus mémorable film de course </p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Interstellar</title>
-      <link href="/blog-cine/2025/Interstellar/"/>
-      <url>/blog-cine/2025/Interstellar/</url>
-      
-        <content type="html"><![CDATA[<p>meilleur film au monde y’a pas besoin de parler plus.J’aimerais pas etre aveugle </p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Les Fausses blondes infiltrées</title>
-      <link href="/blog-cine/2025/Les-Fausses-blondes-infiltrees/"/>
-      <url>/blog-cine/2025/Les-Fausses-blondes-infiltrees/</url>
-      
-        <content type="html"><![CDATA[<p>Obligé de rigoler aprés avoir vue ce film audacieux avec des blagues subtiles et bien amenées.A regarder en famille c’est un classique dans le genre de la comédie </p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Transformers</title>
-      <link href="/blog-cine/2025/Transformers/"/>
-      <url>/blog-cine/2025/Transformers/</url>
-      
-        <content type="html"><![CDATA[<p>Transformers c’est un reve d’enfant qu’on voit etre animé c’est comme des jouets qui se transfomre en super robots pour se taper dessus en plus y’a Megan fox dedans donc fonce.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Spiderman</title>
-      <link href="/blog-cine/2025/Spiderman/"/>
-      <url>/blog-cine/2025/Spiderman/</url>
-      
-        <content type="html"><![CDATA[<p>ce film c’est un classique , a connaitre absolument sinon ta vie est ratée meme une personne qui a l’arachnophobie kifferait Spiderman. On a deja tous réve de se faire piquer par une araignée mais au lieu de ça on a eu 38 piqures contre le covid.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Massacre à la tronçonneuse</title>
-      <link href="/blog-cine/2025/Massacre-a-la-tronconneuse/"/>
-      <url>/blog-cine/2025/Massacre-a-la-tronconneuse/</url>
-      
-        <content type="html"><![CDATA[<p>si vous avez aimé vendredi 13 vous etes au bon endroit , y’a pas de blabla le tueur attaque direct.Par contre pour la première fois la meuf qu’on suit est moche par rapport aux autres films d’horreur je crois que c’est elle le massacre.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>iron man</title>
-      <link href="/blog-cine/2025/iron-man/"/>
-      <url>/blog-cine/2025/iron-man/</url>
-      
-        <content type="html"><![CDATA[<p>Il n’y a rien de vrai qu’un film d’iron man depuis sa mort je regarde ses anciens films. C’est une saga révolutionnaire , c’est robocop mais 100x mieux</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>pacific rim</title>
-      <link href="/blog-cine/2025/pacific-rim/"/>
-      <url>/blog-cine/2025/pacific-rim/</url>
-      
-        <content type="html"><![CDATA[<p>transformers a tellement percé qu’on en fait des copies , toujours copié mais jamais égalé bref sortez nous un film Transformers.</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ready player one</title>
-      <link href="/blog-cine/2025/ready-player-one/"/>
-      <url>/blog-cine/2025/ready-player-one/</url>
-      
-        <content type="html"><![CDATA[<p>de base je voulais voir squid game je sais pas comment j’ai attéri ici</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>star wars la menace fantome</title>
-      <link href="/blog-cine/2025/star-wars-la-menace-fantome/"/>
-      <url>/blog-cine/2025/star-wars-la-menace-fantome/</url>
-      
-        <content type="html"><![CDATA[<p>premier film d’une série a succès de 9 film</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Interstellar</title>
+    <url>/blog-cine/2025/Interstellar/</url>
+    <content><![CDATA[<p>meilleur film au monde y’a pas besoin de parler plus.J’aimerais pas etre aveugle </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Spiderman</title>
+    <url>/blog-cine/2025/Spiderman/</url>
+    <content><![CDATA[<p>ce film c’est un classique , a connaitre absolument sinon ta vie est ratée meme une personne qui a l’arachnophobie kifferait Spiderman. On a deja tous réve de se faire piquer par une araignée mais au lieu de ça on a eu 38 piqures contre le covid.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Les Fausses blondes infiltrées</title>
+    <url>/blog-cine/2025/Les-Fausses-blondes-infiltrees/</url>
+    <content><![CDATA[<p>Obligé de rigoler aprés avoir vue ce film audacieux avec des blagues subtiles et bien amenées.A regarder en famille c’est un classique dans le genre de la comédie </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Massacre à la tronçonneuse</title>
+    <url>/blog-cine/2025/Massacre-a-la-tronconneuse/</url>
+    <content><![CDATA[<p>si vous avez aimé vendredi 13 vous etes au bon endroit , y’a pas de blabla le tueur attaque direct.Par contre pour la première fois la meuf qu’on suit est moche par rapport aux autres films d’horreur je crois que c’est elle le massacre.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>iron man</title>
+    <url>/blog-cine/2025/iron-man/</url>
+    <content><![CDATA[<p>Il n’y a rien de vrai qu’un film d’iron man depuis sa mort je regarde ses anciens films. C’est une saga révolutionnaire , c’est robocop mais 100x mieux</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Transformers</title>
+    <url>/blog-cine/2025/Transformers/</url>
+    <content><![CDATA[<p>Transformers c’est un reve d’enfant qu’on voit etre animé c’est comme des jouets qui se transfomre en super robots pour se taper dessus en plus y’a Megan fox dedans donc fonce.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>pacific rim</title>
+    <url>/blog-cine/2025/pacific-rim/</url>
+    <content><![CDATA[<p>transformers a tellement percé qu’on en fait des copies , toujours copié mais jamais égalé bref sortez nous un film Transformers.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>ready player one</title>
+    <url>/blog-cine/2025/ready-player-one/</url>
+    <content><![CDATA[<p>de base je voulais voir squid game je sais pas comment j’ai attéri ici</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>star wars la menace fantome</title>
+    <url>/blog-cine/2025/star-wars-la-menace-fantome/</url>
+    <content><![CDATA[<p>premier film d’une série a succès de 9 film</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Fast And Furious</title>
+    <url>/blog-cine/2025/Fast-And-Furious/</url>
+    <content><![CDATA[<p>l’un des plus mémorable film de course </p>
+]]></content>
+  </entry>
 </search>
