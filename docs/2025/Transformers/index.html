@@ -71,16 +71,25 @@
     </div>
    
   </div>
-  
-    <div id="site_search">
-     <div class="form-group">
-      <input type="text" id="local-search-input" name="q" results="0" placeholder="search" class="st-search-input st-default-search-input form-control"/>
-     </div>  
-   
+  <div class="search-header">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <div class="search-input-container">
+      <input autocomplete="off" autocapitalize="off" maxlength="80"
+             placeholder="search.placeholder" spellcheck="false"
+             type="search" class="search-input">
     </div>
+    <span class="popup-btn-close" role="button">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+  <div class="search-result-container no-result">
+    <div class="search-result-icon">
+      <i class="fa fa-spinner fa-pulse fa-5x"></i>
+    </div>
+  </div>
   
- 
-</nav>
 
 
 
