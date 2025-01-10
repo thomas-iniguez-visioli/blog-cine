@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>la science du cinéma</title>
 	<link href="https://thomas-iniguez-visioli.github.io/blog-cine" />
-	<updated>2025-01-09T17:10:57.732Z</updated>
+	<updated>2025-01-10T08:34:12.796Z</updated>
 	<author>
 		<name>thomas iniguez visioli</name>
 		<email>noreply@blogger.com</email>
@@ -44,13 +44,6 @@
 		<summary>iron man</summary>
 	</entry>
 	<entry>
-		<title>pr&#xE9;sentation</title>
-		<link href="https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/" />
-		<id>https://thomas-iniguez-visioli.github.io/blog-cine/2025/hello-world/</id>
-		<updated>2025-01-08T15:06:21.907Z</updated>
-		<summary>pr&#x26;#xE9;sentation</summary>
-	</entry>
-	<entry>
 		<title>Transformers</title>
 		<link href="https://thomas-iniguez-visioli.github.io/blog-cine/2025/Transformers/" />
 		<id>https://thomas-iniguez-visioli.github.io/blog-cine/2025/Transformers/</id>
@@ -89,7 +82,7 @@
 		<title>about</title>
 		<link href="https://thomas-iniguez-visioli.github.io/blog-cine/about/" />
 		<id>https://thomas-iniguez-visioli.github.io/blog-cine/about/</id>
-		<updated>2025-01-08T09:11:53.466Z</updated>
+		<updated>2025-01-10T07:34:12.796Z</updated>
 		<summary>about</summary>
 	</entry>
 </feed>
