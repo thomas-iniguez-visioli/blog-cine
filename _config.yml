@@ -105,7 +105,7 @@ seo:
       - "*.min.{htm,html}"
   # minify css
   css:
-    enable: false
+    enable: true
     # If you want to customize the css minifier settings, you can put below
     # exclude css from minifying, multiple supported
     exclude:
