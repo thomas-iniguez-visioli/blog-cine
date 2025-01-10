@@ -188,6 +188,7 @@ per_page: 100
 pagination_dir: page
 
 
+search: true
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
@@ -198,10 +199,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: Gradient
-search:
-  path: search.json
-  field: all
-  content: true
+
   
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
