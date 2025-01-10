@@ -1,5 +1,5 @@
 ---
-title: présentation
+title: presentation
 comments: true
 featured_image: img/default.jpg
 star: 0
