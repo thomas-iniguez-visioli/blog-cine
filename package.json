@@ -17,7 +17,6 @@
     "google-img-scrap": "github:alphaleadership/google-img-scrap",
     "hexo": "^7.3.0",
     "hexo-admin": "^2.3.0",
-    "hexo-admin-ehc": "^3.0.0",
     "hexo-deployer-git": "github:alphaleadership/hexo-deployer-git",
     "hexo-directory-category": "^1.1.4",
     "hexo-generator-archive": "^2.0.0",
