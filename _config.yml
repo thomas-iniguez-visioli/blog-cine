@@ -209,7 +209,7 @@ local_search:
   # Unescape html strings to the readable one.
   unescape: true
   # Preload the search data when the page loads.
-  preload: true
+  preload: false
   
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
