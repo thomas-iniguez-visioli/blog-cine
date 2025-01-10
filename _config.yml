@@ -187,6 +187,7 @@ seo:
 per_page: 100
 pagination_dir: page
 
+
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
